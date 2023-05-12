@@ -61,7 +61,6 @@ a:active {
     width: 100%;
     background-repeat:repeat-y;
     background-size: 100%;
-	
     transform: skewY(6deg);
     transform-origin: top right;
     filter: brightness(50%);
