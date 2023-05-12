@@ -101,6 +101,7 @@ section{
     justify-content: center;
     grid-template-columns: 200px 500px;
     grid-template-rows: auto;
+    margin-bottom: 30px;
 }
 
 section > .description {
