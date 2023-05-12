@@ -11,7 +11,8 @@ body {
     align-items: center;
 }
 .links-wrapper > .nav-link {
-    width: 100px;
+    width: auto;
+    margin: 10px;
     text-align: center;
 	font-family: 'Montserrat', sans-serif;
 	
@@ -109,7 +110,7 @@ section > img {
 
 footer {
     background-color: #663300;
-    padding-bottom: 250px;
+    padding-bottom: 0px;
 }
 
 footer > .bottom_nav_bar {
