@@ -96,10 +96,7 @@ section{
     grid-template-columns: 200px 500px;
     grid-template-rows: auto;
 }
-/* section > .firstcontainer{
-    display: flex;
 
-} */
 section > .description {
     display: flex;
     width: 470px;
