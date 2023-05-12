@@ -102,9 +102,11 @@ section > .description {
     width: 470px;
 }
 
-section > img {
+section > img{
     display: flex;
     width: 470px;
+    margin-right: 15px;
+    margin-bottom: 0;
 }
 
 footer {
