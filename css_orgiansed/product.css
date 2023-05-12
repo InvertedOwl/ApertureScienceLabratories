@@ -9,6 +9,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #ffcc99;
+    border-radius: 15px;
 }
 .links-wrapper > .nav-link {
     width: auto;
@@ -20,6 +22,9 @@ body {
 .links-wrapper > .nav-link a{
 	transition:0.5s;
 	text-decoration: none;
+    background-color: #996633;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 a:link {
