@@ -29,3 +29,27 @@ img {
   margin-top:25px;
   margin-right:100px;
 }
+
+.articles {
+  position: relative;
+  top: -200px;
+  text-align: center;
+  width: 70%;
+}
+
+.article {
+  background-color: #ffcc99;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.article-header {
+  margin-bottom: 50px;
+  background-color: #996633;
+  width: fit-content;
+  left: 50%;
+  position: relative;
+  transform: translate(-50%);
+  padding: 15px;
+  border-radius: 15px;
+}

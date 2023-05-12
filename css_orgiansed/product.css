@@ -9,9 +9,12 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #ffcc99;
+    border-radius: 15px;
 }
 .links-wrapper > .nav-link {
-    width: 100px;
+    width: auto;
+    margin: 10px;
     text-align: center;
 	font-family: 'Montserrat', sans-serif;
 	
@@ -19,6 +22,9 @@ body {
 .links-wrapper > .nav-link a{
 	transition:0.5s;
 	text-decoration: none;
+    background-color: #996633;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 a:link {
@@ -111,7 +117,7 @@ section > img{
 
 footer {
     background-color: #663300;
-    padding-bottom: 250px;
+    padding-bottom: 0px;
 }
 
 footer > .bottom_nav_bar {
