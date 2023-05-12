@@ -107,13 +107,17 @@ section{
 section > .description {
     display: flex;
     width: 470px;
+    border: 5px solid 	#bb9966;
+    border-radius: 10px;
+    margin: 20px 0px 20px 0px;
 }
 
 section > img{
     display: flex;
     width: 470px;
-    margin-right: 15px;
-    margin-bottom: 0;
+    border: 5px solid 	#bb9966;
+    border-radius: 10px;
+    margin: 20px 15px 20px 0px;
 }
 
 footer {
