@@ -8,6 +8,7 @@ body {
 
 .caveportrate {
   max-width: 500px;
+  margin:0px 50px 30px 75px;
 }
 
 .logo60s {
@@ -15,9 +16,16 @@ body {
 }
 
 img {
-  margin:
+  margin-bottom: 30px;
 }
 
 .cavecolor {
   background-color: #472603;
+}
+
+.cavetextdiv{
+  height:30%;
+  background-color:#bb9966;
+  margin-top:25px;
+  margin-right:100px;
 }
