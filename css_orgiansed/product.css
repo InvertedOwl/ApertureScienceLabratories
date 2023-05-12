@@ -94,3 +94,10 @@ footer {
     background-color: black;
     padding-bottom: 250px;
 }
+
+footer > .bottom_nav_bar {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 500px;
+    
+}
