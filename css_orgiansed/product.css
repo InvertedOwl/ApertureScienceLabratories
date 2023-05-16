@@ -99,7 +99,7 @@ a:active {
 section{
     display: grid;
     justify-content: center;
-    grid-template-columns: 400px 1000px;
+    grid-template-columns: 200px 1000px;
     grid-template-rows: auto;
     margin-bottom: 30px;
 }
@@ -125,8 +125,7 @@ section > img {
     width: 200px;
     border: 5px solid 	black;
     border-radius: 10px;
-    margin: 20px 30px 20px 0px;
-
+    margin: 20px 15px 20px 0px;
 }
 
 footer {
