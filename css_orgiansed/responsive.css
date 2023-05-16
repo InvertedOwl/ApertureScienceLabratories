@@ -1,5 +1,5 @@
 
-@media screen and (max-width:500px){
+@media screen and (max-width:650px){
     .links-wrapper {
         flex-direction: column;
         margin-bottom: 20px;
@@ -21,4 +21,10 @@
 		width: auto;
     }
 
+}
+
+@media screen and (max-width:800px){
+    .logo60s{
+        width:100%;
+    }
 }
