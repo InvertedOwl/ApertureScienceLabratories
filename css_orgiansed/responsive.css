@@ -1,5 +1,24 @@
 
 @media screen and (max-width:500px){
-  
+    .links-wrapper {
+        flex-direction: column;
+        margin-bottom: 20px;
+
+    }
+    .links-wrapper > .nav-link {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 1.5em;
+        width: 100%;
+    }
+    .skewed-header > .skewed-header-wrapper > .skewed-header-content {
+        flex-direction: column;
+		width: auto;
+    }
+
+    .skewed-header > .header-bg {
+        
+		width: auto;
+    }
 
 }
