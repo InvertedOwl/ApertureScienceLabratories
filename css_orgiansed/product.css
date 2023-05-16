@@ -121,7 +121,8 @@ section > img{
 
 footer {
     background-color: #663300;
-    padding-bottom: 0px;
+    padding: 20px 0px 20px 0px;
+    
 }
 
 footer > .bottom_nav_bar {
