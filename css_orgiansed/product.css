@@ -99,7 +99,7 @@ a:active {
 section{
     display: grid;
     justify-content: center;
-    grid-template-columns: 400px 1000px;
+    grid-template-columns: 300px 1000px;
     grid-template-rows: auto;
     margin-bottom: 30px;
 }
@@ -109,9 +109,9 @@ main {
 
 section > .description {
     display: flex;
-    
+    background-color: #ffcc99;
     width: auto;
-    border: 5px solid 	#bb9966;
+    border: 5px solid 	black;
     border-radius: 10px;
     margin: 20px 0px 20px 0px;
 }
@@ -123,10 +123,9 @@ section > img {
     display: flex;
     height: 200px;
     width: 200px;
-    border: 5px solid 	#bb9966;
+    border: 5px solid 	black;
     border-radius: 10px;
-    margin: 20px 30px 20px 0px;
-
+    margin: 20px 15px 20px 0px;
 }
 
 footer {
