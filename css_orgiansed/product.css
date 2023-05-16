@@ -3,6 +3,7 @@ body {
     margin:0;
     background-color: none;
 }
+
 /* Links */
 
 .links-wrapper {
@@ -98,21 +99,29 @@ a:active {
 section{
     display: grid;
     justify-content: center;
-    grid-template-columns: 200px 500px;
+    grid-template-columns: 200px 1000px;
     grid-template-rows: auto;
     margin-bottom: 30px;
+}
+main {
+    padding: 0px 0px 40px 0px;
 }
 
 section > .description {
     display: flex;
-    width: 470px;
+    
+    width: auto;
     border: 5px solid 	#bb9966;
     border-radius: 10px;
     margin: 20px 0px 20px 0px;
 }
+section > .description > p {
+    font-size: 30px;
+}
 
-section > img{
+section > img {
     display: flex;
+    height: fit-content;
     width: auto;
     border: 5px solid 	#bb9966;
     border-radius: 10px;
