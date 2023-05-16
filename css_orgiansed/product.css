@@ -128,6 +128,11 @@ section > img {
     margin: 20px 15px 20px 0px;
 }
 
+section {
+    position: relative;
+    top: -180px;
+}
+
 footer {
     background-color: #663300;
     padding: 20px 0px 20px 0px;

@@ -44,6 +44,12 @@ img {
   padding: 15px;
   border-radius: 15px;
   background-color: #ffcc99;
+  font-size: 20px;
+}
+
+.article > img {
+  width: 100%;
+  min-width: 300px;
 }
 
 .article-header {
