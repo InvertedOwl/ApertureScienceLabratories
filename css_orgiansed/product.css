@@ -100,12 +100,16 @@ section{
     display: grid;
     justify-content: center;
     grid-template-columns: 300px 1000px;
-    grid-template-rows: auto;
+    grid-template-rows: 200px 300px 300px 300px 300px 300px 300px;
     margin-bottom: 30px;
+    /* position: relative;
+    top: -180px; */
 }
 main {
     padding: 0px 0px 40px 0px;
 }
+
+    
 
 section > .description {
     display: flex;
@@ -123,14 +127,9 @@ section > img {
     display: flex;
     height: 200px;
     width: 200px;
-    border: 5px solid 	black;
+    border: 5px solid black;
     border-radius: 10px;
     margin: 20px 15px 20px 0px;
-}
-
-section {
-    position: relative;
-    top: -180px;
 }
 
 footer {
