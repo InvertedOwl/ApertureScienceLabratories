@@ -111,7 +111,7 @@ main {
 
     
 
-section > .description {
+section > .sub-section > .description {
     display: flex;
     background-color: #ffcc99;
     width: auto;
@@ -119,11 +119,11 @@ section > .description {
     border-radius: 10px;
     margin: 20px 0px 20px 0px;
 }
-section > .description > p {
+section > .sub-section >.description > p {
     font-size: 30px;
 }
 
-section > img {
+section > .sub-section > img {
     display: flex;
     height: 200px;
     width: 200px;
