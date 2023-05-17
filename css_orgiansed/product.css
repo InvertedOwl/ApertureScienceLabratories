@@ -3,6 +3,11 @@ body {
     margin:0;
     background-color: none;
 }
+div > hr {
+    width: 900px;
+    justify-content: center;
+
+}
 
 /* Links */
 
@@ -101,6 +106,11 @@ section{
     position: relative;
     top: -180px;
 }
+section > #pro{
+    display: flex;
+    justify-content: center;
+}
+
 main {
     padding: 0px 0px 40px 0px;
     display: grid;
@@ -125,8 +135,8 @@ section > .products > .description {
     margin: 20px 0px 20px 0px;
 }
 section > .products > .description > p {
-    font-size: 30px;
-
+    font-size: 10px;
+    height: 200px;
 }
 
 section > .products > img {
