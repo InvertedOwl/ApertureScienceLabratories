@@ -104,7 +104,10 @@ section{
 
 section > #pro{
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    padding: 20px 0px 90px 0px;
+    font-size: 80px;
+    text-decoration: 2px underline wavy black;
 }
 
 main {
@@ -119,12 +122,14 @@ section > .products {
     grid-template-columns: 200px 1000px;
     grid-template-rows: auto;
     margin-bottom: 50px;
+    border: 1px solid grey;
+    border-radius: 15px;
 }
 
 
 section > .products > .description {
     display: flex;
-    text-align: center;
+    text-align: left;
     background-color: #ffcc99;
     width: auto;
     border-top-right-radius: 15px;
@@ -137,6 +142,7 @@ section > .products > .description > p {
     font-size: 20px;
     height: 200px;
     margin:0;
+
 }
 
 section > .products > img {
@@ -151,6 +157,7 @@ section > .More-coming {
     display: flex;
     justify-content: center;
     font-size: 50px;
+    padding-bottom: -90px;
 }
 
 footer {
