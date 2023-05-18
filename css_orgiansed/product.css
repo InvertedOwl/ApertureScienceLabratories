@@ -119,17 +119,22 @@ section > .products {
     grid-template-columns: 200px 1000px;
     grid-template-rows: auto;
     margin-bottom: 50px;
-    border: 2px solid grey;
 }
 
 
 section > .products > .description {
     display: flex;
+    text-align: center;
     background-color: #ffcc99;
     width: auto;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
 }
 section > .products > .description > p {
-    font-size: 10px;
+    font-size: 20px;
     height: 200px;
     margin:0;
 }
@@ -137,8 +142,10 @@ section > .products > .description > p {
 section > .products > img {
     display: flex;
     height: 200px;
-    width: 200px;
+    width: 100%;
     margin:0;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 section > .More-coming {
     display: flex;
