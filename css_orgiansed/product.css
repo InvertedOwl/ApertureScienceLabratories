@@ -4,8 +4,6 @@ body {
     background-color: none;
 }
 
-
-
 /* Links */
 
 .links-wrapper {
@@ -103,6 +101,7 @@ section{
     position: relative;
     top: -180px;
 }
+
 section > #pro{
     display: flex;
     justify-content: center;
@@ -117,9 +116,9 @@ main {
 section > .products {
     display: grid;
     justify-content: center;
-    grid-template-columns: 400px 1000px;
+    grid-template-columns: 200px 1000px;
     grid-template-rows: auto;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     border: 2px solid grey;
 }
 
@@ -132,12 +131,14 @@ section > .products > .description {
 section > .products > .description > p {
     font-size: 10px;
     height: 200px;
+    margin:0;
 }
 
 section > .products > img {
     display: flex;
     height: 200px;
     width: 200px;
+    margin:0;
 }
 
 footer {
