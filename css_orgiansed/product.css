@@ -163,7 +163,9 @@ footer {
     padding: 20px 0px 20px 0px;
     
 }
-
+footer > .logo {
+    
+}
 footer > .bottom_nav_bar {
     display: grid;
     justify-content: center;
