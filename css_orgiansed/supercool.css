@@ -1,5 +1,6 @@
 /* the begining of our really cool styles  */
 
+/* sets up the standards  */
 body {
   font-family: Comfortaa;
   color: black;
@@ -15,14 +16,11 @@ body {
   height: 300px;
 }
 
-/* img {
-  margin-bottom: 30px;
-} */
-
 .cavecolor {
   background-color: #472603;
 }
 
+/* this is does all of the styleing for the text on the cave page */
 .cavetextdiv{
   height:30%;
   background-color:#bb9966;

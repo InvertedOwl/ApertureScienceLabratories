@@ -11,6 +11,7 @@
         font-size: 1.5em;
         width: 100%;
     }
+    
     .skewed-header > .skewed-header-wrapper > .skewed-header-content {
         flex-direction: column;
 		width: auto;
@@ -22,7 +23,7 @@
     }
 
 }
-
+/* this is used for the logo on the 60s page */
 @media screen and (max-width:1100px){
     .logo60s{
         width:100%;
