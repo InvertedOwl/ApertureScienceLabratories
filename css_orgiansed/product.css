@@ -12,6 +12,8 @@ body {
     align-items: center;
     background-color: #996633;
     border-radius: 15px;
+    position: relative;
+    right:-100px;
 }
 .links-wrapper > .nav-link {
     width: auto;
@@ -82,18 +84,13 @@ a:active {
 .skewed-header > .skewed-header-wrapper > .skewed-header-content{
     width: 1000px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
 .skewed-header > .skewed-header-wrapper > .skewed-header-content > .heading-wrapper{
-    background-color: #cea135;
-    color: #11122b;
-    border-bottom-left-radius: 2px;
-    border-bottom-right-radius: 2px;
-    width: 175px;
-    padding: 10px;
-    text-align: center;
+    position: relative;
+    left:-100px;
 }
 
 section{
