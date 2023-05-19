@@ -89,6 +89,7 @@ a:active {
 }
 
 .skewed-header > .skewed-header-wrapper > .skewed-header-content > .heading-wrapper{
+    margin-top: 20px;
     position: relative;
     left:-100px;
 }
@@ -162,9 +163,13 @@ footer {
     padding: 20px 0px 20px 0px;
     
 }
+footer > .logo {
 
+}
 footer > .bottom_nav_bar {
     display: grid;
+    position: relative;
+    right:100px;
     justify-content: center;
     grid-template-columns: 500px;
     
