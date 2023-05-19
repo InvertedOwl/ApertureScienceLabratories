@@ -89,6 +89,7 @@ a:active {
 }
 
 .skewed-header > .skewed-header-wrapper > .skewed-header-content > .heading-wrapper{
+    margin-top: 20px;
     position: relative;
     left:-100px;
 }
