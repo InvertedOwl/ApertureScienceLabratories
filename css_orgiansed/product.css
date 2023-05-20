@@ -160,17 +160,20 @@ section > .More-coming {
 
 footer {
     background-color: #663300;
-    padding: 20px 0px 20px 0px;
+    padding: 50px 0px 20px 0px;
     
 }
-footer > .logo {
+footer > .logo { 
+    display: flex;
+    justify-content: center; 
+    margin: 40px 0px 0px 0px;
 
 }
 footer > .bottom_nav_bar {
     display: grid;
     position: relative;
-    right:100px;
+    right: 100px;
     justify-content: center;
     grid-template-columns: 500px;
-    
+    margin-bottom: 40px;
 }
