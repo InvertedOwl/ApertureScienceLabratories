@@ -1,8 +1,12 @@
 
 @media screen and (max-width:650px){
+    
+    
     .links-wrapper {
         flex-direction: column;
         margin-bottom: 20px;
+        position: relative;
+        right:auto;
 
     }
     .links-wrapper > .nav-link {
@@ -14,13 +18,51 @@
     
     .skewed-header > .skewed-header-wrapper > .skewed-header-content {
         flex-direction: column;
+		width: auto;    
+    }
+    .skewed-header > .skewed-header-wrapper > .skewed-header-content > .heading-wrapper{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        position: relative;
+        left: auto;
+    }
+    .skewed-header > .skewed-header-wrapper > .skewed-header-content > .heading-wrapper > img {
+        height: 110px;
+    }
+    .skewed-header > .header-bg {
+        height: 75%;
 		width: auto;
     }
 
-    .skewed-header > .header-bg {
-        
-		width: auto;
+    section{
+        position: relative;
+        top: -180px;
     }
+    section > .products{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        position: relative;
+        left: 40px;
+    }
+    section > .products > .description {
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        height: auto;
+        padding-bottom: 200px;
+
+    }
+    section > .products > img {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+    footer > .bottom_nav_bar{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        right: auto;
+    }
+
 
 }
 /* this is used for the logo on the 60s page */
