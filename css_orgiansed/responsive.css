@@ -83,7 +83,10 @@
         left: 145px;
     }
     /* Product.html */
-
+    /* Cave.html */
+    div.row > .col > img{
+        height: 450px;
+    }
 }
 /* this is used for the logo on the 60s page */
 @media screen and (max-width:1100px){
