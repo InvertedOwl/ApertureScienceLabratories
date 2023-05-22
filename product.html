@@ -1,36 +1,47 @@
 <!doctype html>
-<html>
+<html lang="en">
 	<head>
-		<meta charset="utf-8">
+		<meta charset="UTF-8">
 		<title>Product</title>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge chrome=1">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		
-		<link rel="icon" type="image/x-icon" href="/img/aperture.png">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <!-- <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet"> -->
+		<link rel="icon" type="image/x-icon" href="img/aperture.png">
 		 
 		<link rel="stylesheet" href="css_orgiansed/supercool.css">
 		<link rel="stylesheet" href="css_orgiansed/product.css"> 
 		<link rel="stylesheet" href="css_orgiansed/responsive.css">
+		<script src="javascript/javascript.js" defer></script>
+
 		<!-- https://www.color-hex.com/color-palette/3045 -->
     </head>
     <body>
 		<header>
+
+
 			<div class="skewed-header">
 				<div class="header-bg" style="background-color: #996633;"></div>
 		
 				<div class="skewed-header-wrapper">
+
 					<div class="skewed-header-content">
+
 						<div class="heading-wrapper">
 							<img src="img/aperturelogo.jpg" height="120px" alt="Logo">
 						</div>
 		
 						<div class="links-wrapper">
+
 							<div class="nav-link">
 								<a href="index.html">Home</a>
 							</div>
 
 							<div class="nav-link">
-								<a href="product_page.html">Product</a>
+								<a href="product.html">Product</a>
 							</div>
 
 							<div class="nav-link">
@@ -40,9 +51,28 @@
 							<div class="nav-link">
 								<a href="cave.html">ME ME ME</a>
 							</div>
+
 						</div>
+
 					</div>
 				</div>
+			</div>
+			<div class="emotionArea container-fluid">
+				<p> How is your expeirence? </p>
+
+				<button style="all: unset; cursor: pointer;" onclick="response('happy')">
+					<img src="img/003-happiness.png" alt="neutral" width="50">
+				</button>
+
+				<button style="all: unset; cursor: pointer;" onclick="response('neutral')">
+					<img src="img/001-neutral-face.png" alt="neutral" width="50">
+				</button>
+
+				<button style="all: unset; cursor: pointer;" onclick="response('sad')">
+					<img src="img/002-upset.png" alt="neutral" width="50">
+				</button>
+
+				
 			</div>
 		</header>
 		
@@ -53,15 +83,15 @@
 				<h1 id="pro"> Products: </h1>
 
 				<div class="products">
-					<img src="img/Portal Gun.png">
+					<img src="img/Portal Gun.png" alt="Portal Gun">
 						
 					<div class="description">
-						<p>Listen up, folks! If you're in the market for mind-bending innovation, then look no further than Aperture Science's latest masterpiece: The Portal Gun. With its ability to bend the very fabric of space and time, this handheld marvel will revolutionize the way you navigate the world. Say goodbye to mundane commutes and hello to instantaneous teleportation. Whether you're a thrill-seeker, problem-solver, or just someone who craves adventure, the Portal Gun is your ticket to a world of endless possibilities. Get yours today and embrace the future with Aperture Science!</p>
+						<p>Listen up, folks! If you're in the market for mind-bending innovation, then look no further than Aperture Science's latest masterpiece: The Portal Gun. With its ability to bend the very fabric of space and time, this handheld marvel will revolutionize the way you navigate the world. Get yours today and embrace the future with Aperture Science!</p>
 					</div>
 				</div>
 
 				<div class="products">
-					<img src="img/Panel.png">
+					<img src="img/Panel.png" alt="Panel">
 
 						
 					<div class="description">
@@ -71,17 +101,17 @@
 
 				<div class="products">
 
-					<img src="img/Turret.png">
+					<img src="img/Turret.png" alt="Turret">
 
 						
 					<div class="description">
-						<p>Ladies and gentlemen, prepare to be blown away by the ultimate guardian of security and mayhem: the Aperture Science Turret! Equipped with state-of-the-art target acquisition and tracking systems, the Turret ensures that no trespasser goes unnoticed or unscathed. Its precision firepower will send a clear message: Aperture Science means business when it comes to protecting what's valuable. So whether you're safeguarding a top-secret facility or simply looking to amp up your home security, the Aperture Science Turret is your steadfast companion in defense. Get yours today and let the world know that you're not to be messed with!</p>
+						<p>Ladies and gentlemen, prepare to be blown away by the ultimate guardian of security and mayhem: the Aperture Science Turret! Equipped with state-of-the-art target acquisition and tracking systems, the Turret ensures that no trespasser goes unnoticed or unscathed. Get yours today and let the world know that you're not to be messed with!</p>
 					</div>
 
 				</div>
 
 				<div class="products">
-					<img src="img/WeightedCompanionCube.png">
+					<img src="img/WeightedCompanionCube.png" alt="Weighted Companion Cube">
 						
 					<div class="description">
 						<p>Introducing the Aperture Science Companion Cube, your ultimate testing buddy and the embodiment of friendship in the world of science! This captivating cube is more than just a geometric object—it's your loyal companion throughout your scientific endeavors.</p>
@@ -115,19 +145,19 @@
 					</div>
 					
 					<div class="nav-link">
-						<a href="#">ME ME ME</a>
+						<a href="cave.html">ME ME ME</a>
 					</div>
 
 				</div>
 
-				<div class="logo">
-
-					<img src="img/aperturelogo.jpg" height="120px" alt="Logo">
-
-				</div>
+				
 
 			</div>
+			<div class="logo">
 
+				<img src="img/aperturelogo.jpg" height="120px" alt="Logo">
+
+			</div>
 		</footer>
 
     </body>

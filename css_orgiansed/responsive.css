@@ -1,10 +1,15 @@
 
 @media screen and (max-width:650px){
+    
+    /* Product.html */
     .links-wrapper {
         flex-direction: column;
         margin-bottom: 20px;
+        position: relative;
+        right:auto;
 
     }
+
     .links-wrapper > .nav-link {
         margin-top: 10px;
         margin-bottom: 10px;
@@ -14,14 +19,74 @@
     
     .skewed-header > .skewed-header-wrapper > .skewed-header-content {
         flex-direction: column;
-		width: auto;
+		width: auto;    
+    }
+
+    .skewed-header > .skewed-header-wrapper > .skewed-header-content > .heading-wrapper{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        position: relative;
+        left: auto;
+    }
+
+    .skewed-header > .skewed-header-wrapper > .skewed-header-content > .heading-wrapper > img {
+        height: 110px;
     }
 
     .skewed-header > .header-bg {
-        
+        height: 75%;
 		width: auto;
     }
 
+    section{
+        position: relative;
+        top: -180px;
+    }
+
+    section > .products{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        position: relative;
+        left: 55px;
+    }
+
+    section > .products > .description {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        height: auto;
+        padding-bottom: 220px;
+
+    }
+
+    section > .products > img {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 0px;
+    }
+
+    footer > .bottom_nav_bar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 20px;
+        position: relative;
+        right: auto;
+        width: 200px;
+    }
+
+    footer > .bottom_nav_bar > .links-wrapper{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        left: 145px;
+    }
+    /* Product.html */
+    /* Cave.html */
+    div.row > .col > img{
+        height: 450px;
+    }
 }
 /* this is used for the logo on the 60s page */
 @media screen and (max-width:1100px){
