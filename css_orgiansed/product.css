@@ -126,6 +126,29 @@ section > .products {
     border-radius: 15px;
 }
 
+.emotionArea {
+    width: 300px;
+    height: 120px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 100px;
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    animation: fall 2s ease-out 0s 1 normal forwards;
+}
+
+@keyframes fall {
+    from {
+        top: -150px;
+    }
+    to {
+        top: 15px;
+    }
+
+}
 
 section > .products > .description {
     display: flex;
