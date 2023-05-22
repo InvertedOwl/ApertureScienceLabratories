@@ -1,28 +1,29 @@
 /* the begining of our really cool styles  */
 
+/* sets up the standards  */
 body {
   font-family: Comfortaa;
   color: black;
   background-color: #ffedda;
 }
 
+/* this is the caves portrate */
 .caveportrate {
   max-width: 500px;
   margin:0px 50px 30px 75px;
 }
 
+/* this is the basic height for the 1960s logo */
 .logo60s {
-  height: 300px;
+  height: 200px;
 }
 
-/* img {
-  margin-bottom: 30px;
-} */
-
+/* the background for the cave webpage */
 .cavecolor {
   background-color: #472603;
 }
 
+/* this is does all of the styleing for the text on the cave page */
 .cavetextdiv{
   height:30%;
   background-color:#bb9966;
