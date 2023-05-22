@@ -46,7 +46,7 @@
         left: 55px;
     }
     section > .products > .description {
-        border-top-right-radius: -15px;
+        border-top-right-radius: 0px;
         border-bottom-left-radius: 15px;
         border-bottom-right-radius: 15px;
         height: auto;
@@ -56,7 +56,7 @@
     section > .products > img {
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
-        border-bottom-left-radius: -15px;
+        border-bottom-left-radius: 0px;
     }
     footer > .bottom_nav_bar{
         display: flex;
