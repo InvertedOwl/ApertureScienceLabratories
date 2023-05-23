@@ -43,20 +43,29 @@
         top: -180px;
     }
 
+    section > #pro{
+        display: flex;
+        justify-content: center;
+    }
+
     section > .products{
         display: flex;
         flex-direction: column;
         width: 300px;
         position: relative;
-        left: 55px;
+        left: 100px;
     }
 
     section > .products > .description {
+        display: flex;
+        text-align: center;
+        justify-content: center;
         border-top-right-radius: 0px;
         border-bottom-left-radius: 15px;
         border-bottom-right-radius: 15px;
         height: auto;
-        padding-bottom: 220px;
+        padding-bottom: 310px;
+        
 
     }
 
@@ -64,6 +73,9 @@
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
         border-bottom-left-radius: 0px;
+    }
+    section > .More-coming {
+        text-align: center;
     }
 
     footer > .bottom_nav_bar{
@@ -83,8 +95,10 @@
         left: 145px;
     }
     footer > .logo { 
-       height: 90px;
        padding-bottom: 50px;
+    }
+    footer > .logo > img{
+        height: 90px;
     }
     /* Product.html */
     /* Cave.html */
