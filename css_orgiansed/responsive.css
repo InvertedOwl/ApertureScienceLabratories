@@ -1,5 +1,5 @@
 
-@media screen and (max-width:650px){
+@media screen and (max-width:776px){
     
     /* Product.html */
     .links-wrapper {
@@ -107,9 +107,44 @@
     }
 }
 /* this is used for the logo on the 60s page */
-@media screen and (max-width:1100px){
-    .logo60s{
-        width:100%;
+@media screen and (max-width:1200px){
+    .links-wrapper {
+        margin-bottom: 20px;
+        position: relative;
+        right:auto; 
+    }   
+    .skewed-header > .skewed-header-wrapper > .skewed-header-content{
+        flex-direction: column;
+        
     }
-    
+    .skewed-header > .skewed-header-wrapper > .skewed-header-content > .heading-wrapper{
+        margin-bottom: 30px;
+        position: relative;
+        left: auto;
+    }
+    .skewed-header > .skewed-header-wrapper > .skewed-header-content > .heading-wrapper > img{
+        margin-top: 0;
+    }
+    section > .products{
+        grid-template-columns: 200px 500px;
+    }
+    section > .products > .description > p {
+        font-size: 15px;
+    }
+
+
+
+    section > .More-coming {
+        font-size: 20px;
+    }
+
+    footer > .bottom_nav_bar > .links-wrapper{
+        display: flex;
+        justify-content: center;
+    }
+    footer > .bottom_nav_bar {
+        display: flex;
+        position: relative;
+        right: auto;
+    }
 }
