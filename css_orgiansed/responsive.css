@@ -30,7 +30,7 @@
     }
 
     .skewed-header > .skewed-header-wrapper > .skewed-header-content > .heading-wrapper > img {
-        height: 110px;
+        height: 90px;
     }
 
     .skewed-header > .header-bg {
@@ -81,6 +81,10 @@
         justify-content: center;
         position: relative;
         left: 145px;
+    }
+    footer > .logo { 
+       height: 90px;
+       padding-bottom: 50px;
     }
     /* Product.html */
     /* Cave.html */

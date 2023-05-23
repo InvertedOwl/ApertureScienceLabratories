@@ -185,7 +185,7 @@ section > .More-coming {
 
 footer {
     background-color: #663300;
-    padding: 50px 0px 20px 0px;
+    padding: 50px 0px 50px 0px;
     
 }
 footer > .logo { 
@@ -194,6 +194,10 @@ footer > .logo {
     margin: 40px 0px 0px 0px;
 
 }
+footer > .logo > img {
+    height: 120px;
+}
+
 footer > .bottom_nav_bar {
     display: grid;
     position: relative;
